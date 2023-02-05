@@ -24,7 +24,7 @@ public class JavaApplication45 {
     
 // Ask the user to enter the number of miles driven
     System.out.println("Welcome to the Monthly bill Calculator! ");
-    System.out.println("Enter your current internet package (A,B,C): ");
+    System.out.println("Enter your current internet package (A,B,C,D): ");
     CurrentPackage = keyboard.next().charAt(0);
     
 // Ask the user to enter the gallons of gas used
@@ -52,6 +52,10 @@ public class JavaApplication45 {
         break;
         case 'C','c':
         Total = 19.95;
+        
+        break;
+        case 'D','d':
+        Total = 35.00;
         break;
         
         default: System.out.println("Not a valid Package");
