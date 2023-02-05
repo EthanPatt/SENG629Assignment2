@@ -36,7 +36,7 @@ public class JavaApplication45 {
     {
         case 'A','a':
         {
-            if (NumOfHours<10)
+            if (NumOfHours<=10)
                 Total = 9.95;
             else
                 Total = 9.95 +((NumOfHours-10)*2.0);
@@ -44,7 +44,7 @@ public class JavaApplication45 {
         break;
         case 'B','b':
         {
-            if (NumOfHours<20)
+            if (NumOfHours<=20)
                 Total = 14.95;
             else
                 Total = 14.95 +((NumOfHours-20)*1.0);
