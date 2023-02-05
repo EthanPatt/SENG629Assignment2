@@ -24,6 +24,7 @@ public class JavaApplication45 {
     
 // Ask the user to enter the number of miles driven
     System.out.println("Welcome to the Monthly bill Calculator! ");
+    System.out.println("");
     System.out.println("Enter your current internet package (A,B,C,D): ");
     CurrentPackage = keyboard.next().charAt(0);
     
@@ -61,6 +62,8 @@ public class JavaApplication45 {
         default: System.out.println("Not a valid Package");
     }
     System.out.println("Monthly bill on Package " + CurrentPackage + " is: $" +Total);
+    System.out.println("");
+    System.out.println("Thank you for using the Monthly bill Calculator!");
 }
 }
 
